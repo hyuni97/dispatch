@@ -1,0 +1,96 @@
+th {
+    font-weight: normal;
+}
+.homescreen {
+    background-color: #cce0f7;
+    width: 100%;
+    padding: 5px;
+}
+#start-date,
+#end-date {
+    border: none;
+    background-color: #cce0f7;
+}
+#update-button {
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #ffffff;
+    margin-left: 10px;
+    border: 2px solid #0068b7;
+}
+ul.basic-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    padding-left: 0;
+}
+.management {
+    display: flex;
+}
+.car-management {
+    margin-left: 15px;
+}
+.race-text,
+.car-text {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.race-bundle,
+.car-bundle {
+    display: inline-flex;
+}
+.race-bundle {
+    text-align: center;
+}
+.race-registration,
+.race-check,
+.car-registration,
+.car-check {
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid #0068b7;
+    margin-right: 10px;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #ffffff;
+}
+.race-write,
+.race-search,
+.car-repair,
+.car-search {
+    width: 50px;
+}
+.race-management {
+    border-right: 1px solid #0068b7;
+}
+.today-graph {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+.basic-menu li {
+    display: flex;
+}
+.today-menu th:nth-child(2) {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+.today-menu th:nth-child(4) {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+.today-car,
+.car-care,
+.today-recruitment {
+    font-weight: bold;
+}
+.car-graph {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+.car-menu th:nth-child(2) {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}

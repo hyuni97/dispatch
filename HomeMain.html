@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" href="css/MainHome.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>home</title>
+    </head>
+    <body>
+        <article class="homescreen">
+            <div class="date-picker">
+                <label class="start-text" for="start-date"
+                    >운행일
+                    <input type="date" id="start-date" />
+                    <span>~</span>
+                    <input type="date" id="end-date" />
+                </label>
+                <button id="update-button">조회</button>
+                <ul class="basic-menu">
+                    <li>
+                        총 운반 금액 :
+                        <div class="carrying-money">원</div>
+                    </li>
+                    <li>
+                        총 운행대 수 :
+                        <div class="carrying-car">대</div>
+                    </li>
+                    <li>
+                        총 비용 금액 :
+                        <div class="expense-money">원</div>
+                    </li>
+                    <li>마지막 등록일 :</li>
+                </ul>
+            </div>
+            <section class="management">
+                <section class="race-management">
+                    <p class="race-text">운행 일보 관리</p>
+                    <div class="race-bundle">
+                        <div>
+                            <div class="race-registration">
+                                <img
+                                    class="race-write"
+                                    src="img/write.png"
+                                    alt="일보등록"
+                                />
+                            </div>
+                            <span>일보등록</span>
+                        </div>
+                        <div>
+                            <div class="race-check">
+                                <img
+                                    class="race-search"
+                                    src="img/check.png"
+                                    alt="일보조회"
+                                />
+                            </div>
+                            <span>일보조회</span>
+                        </div>
+                    </div>
+                </section>
+                <section class="car-management">
+                    <p class="car-text">차량 관리</p>
+                    <div class="car-bundle">
+                        <div>
+                            <div class="car-registration">
+                                <img
+                                    class="car-repair"
+                                    src="img/car-repair.png"
+                                    alt=""
+                                />
+                            </div>
+                            <span>차계부등록</span>
+                        </div>
+                        <div>
+                            <div class="car-check">
+                                <img
+                                    class="car-search"
+                                    src="img/car-check.png"
+                                    alt=""
+                                />
+                            </div>
+                            <span>차계부조회</span>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section>
+                <p class="today-car">금일 배차 현황</p>
+                <table class="today-graph">
+                    <tr class="today-menu">
+                        <th>제출처</th>
+                        <th>상차지</th>
+                        <th>하차지</th>
+                        <th>품목</th>
+                        <th>대수</th>
+                    </tr>
+                </table>
+                <p class="car-care">차량 관리</p>
+                <table class="car-graph">
+                    <tr class="car-menu">
+                        <th>분류</th>
+                        <th>교환 예정일</th>
+                        <th>교환 주행거리</th>
+                    </tr>
+                </table>
+                <p class="today-recruitment">금일 차량 모집 공고</p>
+            </section>
+        </article>
+        <script src="/js/MainHome.js"></script>
+    </body>
+</html>
